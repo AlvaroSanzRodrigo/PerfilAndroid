@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:background="@color/colorPrimaryDark"
+            />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/shape_image_oval"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/deadpooltwo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/lore_ipsum_ipsum_lore_sdoipjnfgvjwdrfnvlksdfnnvlksdjfnv"
+
+            android:textSize="20dp" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"
+            >
+
+            <EditText
+                android:id="@+id/etxtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="text"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            >
+
+            <EditText
+                android:id="@+id/etxtSurname1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:ems="10"
+                android:hint="Surname 1"
+                android:inputType="text"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="200dp"
+            >
+
+            <EditText
+                android:id="@+id/etxtSurname2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:ems="10"
+                android:hint="Surname 2"
+                android:inputType="text"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="385dp"
+            >
+
+            <EditText
+                android:id="@+id/etxtPostalCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:ems="10"
+                android:hint="Postal Code"
+                android:inputType="text"
+
+                android:visibility="gone" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            >
+
+            <EditText
+                android:id="@+id/etxtCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:ems="10"
+                android:hint="City"
+                android:inputType="text"
+
+                android:visibility="gone" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="500dp"
+
+            android:text="Ver"
+            android:visibility="gone" />
+        <Switch
+            android:text="Show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true" android:id="@+id/switch1" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</ScrollView>
